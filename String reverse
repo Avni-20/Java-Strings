@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class RevrseByStringBuffer{
+
+     public static void main(String []args){
+         
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter word");
+        
+        StringBuilder sb = new StringBuilder(scan.nextLine());
+     
+        sb.reverse();
+        System.out.println(sb);
+        
+     }
+}
